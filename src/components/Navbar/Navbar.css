@@ -1,0 +1,16 @@
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to top,
+    black,
+    rgb(16, 16, 95),
+    rgb(102, 102, 181) ,
+    rgb(16, 16, 95) 75%
+    );
+    
+}
+
+.navBar p{
+    color: aliceblue;
+}

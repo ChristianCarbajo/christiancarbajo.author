@@ -1,10 +1,13 @@
 import React from 'react'
+import CCG from './CCG.jpg'
+import './About.css'
 
 const About = () => {
   return (
-    <div>
-        <h2>Sobre mi</h2>
-        <div>
+    <div className='about'>
+          <img src={CCG}/>
+          <div>
+          <h2>Sobre mi</h2>
             <p>
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
@@ -13,8 +16,8 @@ const About = () => {
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
             anim id est laborum."
             </p>
+            </div>
         </div>
-    </div>
   )
 }
 

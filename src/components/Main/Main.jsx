@@ -9,7 +9,10 @@ const Main = () => {
 
 
   return (
-    <div>
+    <div className='main'>
+
+      <div className='titles'><h2>Libros</h2></div>
+
       <div className='booksContainer'>
         {dataBook.map((index) => (
         <CardBook 
@@ -20,6 +23,9 @@ const Main = () => {
         image={index.image}
         />))}
       </div>
+
+      <div className='titles'><h2>Relatos cortos</h2></div>
+  
       <div className='storiesContainer'>
           {dataStories.map((index) => (
             <CardStories

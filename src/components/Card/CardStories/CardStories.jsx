@@ -1,13 +1,13 @@
 import React from 'react'
+import './CardStories.css'
 
 
-
-function CardStories() {
+function CardStories({image, title}) {
 
   return (
-    <div className='cardBook'>
-        <img src={img} />
-        <h2>{title}</h2>
+    <div className='cardStories'>
+        <img src={image} />
+        <h4>{title}</h4>
     </div>
   )
 }
