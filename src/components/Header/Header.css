@@ -1,21 +1,28 @@
 .backgroundImage{
-    background-image: url('../Header/imgHeader/portadaEvolutionisFinisTemporum.png');
+    background-image: url('../Header/imgHeader/header.png');
     height: 40vh;
-    width: 90%;
     background-repeat: no-repeat;
     padding-left: 5vw;
     padding-top: 5vh;
+    display: flex;
+   
 }
 
 .backgroundImage h1{
     color: aliceblue;
+   
 }
 .backgroundImage h3{
     color: aliceblue;
+  
 }
 
 .header-CCG{
     height: 20vh;
     border-radius: 10px;
-    border:3px solid;
+    border:3px solid;  
+
+}
+.header-name{
+    margin-left: 3vw;
 }

@@ -1,6 +1,9 @@
 import React from 'react'
 import { useLocation } from 'react-router-dom'
 import './Article.css'
+import AmazonLogo from './articleImg/Amazon-logo.png'
+import AgapeaLogo from './articleImg/Circulo-logo-agapea.png'
+import CervantesLogo from './articleImg/LogoCervantes.jpg'
 
 const Article = () => {
 
@@ -14,22 +17,23 @@ const Article = () => {
 
   return (
     <div className='article'>
-      <div className='book'>
-        <img src={imageInState} />
+      <div className='article-book'>
+        <img className='article-book-frontPage' src={imageInState} />
         <div>
           <h2>{titleInState}</h2>
           <p>{synopsisInState}</p>
 
-          {!urlInState ? 
-          (<>
-            <button>Amazon</button>
-          <button>Agapea</button>
-          <button>Cervantes</button>
-          </>) : null}
+          {!urlInState ?
+            (<div className='article-book-shop'>
+              
+              <a href='/'><img src={AmazonLogo}/></a>
+              <a href='/'><img src={AgapeaLogo}/></a>
+              <a href='/'><img src={CervantesLogo}/></a>
+            </div>) : null}
 
         </div>
       </div>
-      <p>{paragraphInState}</p>
+      <p className='article-paragraph'>{paragraphInState}</p>
     </div>
   )
 }

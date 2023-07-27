@@ -1,19 +1,33 @@
 .article{
-    margin-left: 5vh;
-    margin-top: 5vh;
+    margin: 5vw;
+
 }
 
-.book{
+.article-book{
     display: flex;
     align-items: center;
 }
 
-.book img{
+.article-book-frontPage{
     margin-right: 5vh;
     height: 70vh;
     border:2px solid white;
 }
 
-.article button{
-    margin: 0vh 2vh
+.article-book-shop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.article-book-shop img{
+    height: 10vh;
+    margin-right: 5vw;
+    margin-top: 5vh;
+    cursor: pointer;
+
+}
+.article-paragraph{
+    margin-top: 10vh;
 }

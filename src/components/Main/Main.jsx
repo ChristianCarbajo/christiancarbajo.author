@@ -20,6 +20,7 @@ const Main = () => {
         {dataBook.map((index) => (
         
           <CardBook
+            key={index.id}
             title={index.title}
             synopsis={index.synopsis}
             paragraph={index.paragraph}
