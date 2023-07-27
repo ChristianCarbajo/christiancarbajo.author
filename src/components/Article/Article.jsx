@@ -4,10 +4,10 @@ import './Article.css'
 import AmazonLogo from './articleImg/Amazon-logo.png'
 import AgapeaLogo from './articleImg/Circulo-logo-agapea.png'
 import CervantesLogo from './articleImg/LogoCervantes.jpg'
+import PdfLogo from './articleImg/PDF_file_icon.svg.png'
 
 const Article = () => {
 
-  const idInState = useLocation().state.id
   const titleInState = useLocation().state.title
   const synopsisInState = useLocation().state.synopsis
   const paragraphInState = useLocation().state.paragraph
@@ -29,7 +29,8 @@ const Article = () => {
               <a href='/'><img src={AmazonLogo}/></a>
               <a href='/'><img src={AgapeaLogo}/></a>
               <a href='/'><img src={CervantesLogo}/></a>
-            </div>) : null}
+            </div>) : <a href={urlInState} target='_blank'><img className='article-book-pdf' src={PdfLogo}/></a>
+            } 
 
         </div>
       </div>
