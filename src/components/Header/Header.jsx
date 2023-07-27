@@ -11,7 +11,6 @@ const Header = () => {
                 <h1>Christian Carbajo</h1>
                 <h3>Escritor/Programador Web/Músico</h3>
             </div>
-          
     </div>
   )
 }

@@ -1,0 +1,19 @@
+.article{
+    margin-left: 5vh;
+    margin-top: 5vh;
+}
+
+.book{
+    display: flex;
+    align-items: center;
+}
+
+.book img{
+    margin-right: 5vh;
+    height: 70vh;
+    border:2px solid white;
+}
+
+.article button{
+    margin: 0vh 2vh
+}

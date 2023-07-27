@@ -1,14 +1,17 @@
 import React from 'react'
 import './CardStories.css'
+import { useNavigate } from 'react-router-dom'
 
+function CardStories({id,image,title,synopsis,paragraph,url}) {
 
-function CardStories({image, title}) {
+  let navigate = useNavigate()
 
   return (
     <div className='cardStories'>
-        <img src={image} />
-        <h4>{title}</h4>
+        <img onClick={()=>{navigate("/article",{state:{id,image,title,synopsis,paragraph,url}})}} src={image} />
+        <h4 onClick={()=>{navigate("/article",{state:{id,image,title,synopsis,paragraph, url}})}}>{title}</h4>
     </div>
+ 
   )
 }
 

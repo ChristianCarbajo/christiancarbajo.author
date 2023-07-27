@@ -4,8 +4,11 @@ import dataBook  from '../Data/DataBooks.json'
 import dataStories from '../Data/DataStories.json'
 import './Main.css'
 import CardStories from '../Card/CardStories/CardStories'
+import {Link} from 'react-router-dom'
 
 const Main = () => {
+
+
 
 
   return (
@@ -15,13 +18,12 @@ const Main = () => {
 
       <div className='booksContainer'>
         {dataBook.map((index) => (
-        <CardBook 
-        key={index.id} 
-        title={index.title} 
-        synopsis={index.synopsis} 
-        paragraph={index.paragraph}  
-        image={index.image}
-        />))}
+        
+          <CardBook
+            title={index.title}
+            synopsis={index.synopsis}
+            paragraph={index.paragraph}
+            image={index.image} />))}
       </div>
 
       <div className='titles'><h2>Relatos cortos</h2></div>
@@ -34,6 +36,7 @@ const Main = () => {
         synopsis={index.synopsis} 
         paragraph={index.paragraph}  
         image={index.image}
+        url={index.url}
         />))}
       </div>
 
