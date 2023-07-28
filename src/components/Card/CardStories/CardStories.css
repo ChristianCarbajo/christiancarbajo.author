@@ -2,10 +2,12 @@
 height: 25vh;
 cursor: pointer;
 border:2px solid white;
+transition: 2s;
 }
 
 .cardStories h4{
     cursor: pointer;
+    
 }
 
 .cardStories{
@@ -18,4 +20,9 @@ border:2px solid white;
     margin-bottom: 2vh;
     padding: 10px;
     
+}
+
+.cardStories img:hover{
+transition:2s;
+height: 40vh;
 }
