@@ -13,12 +13,17 @@
 
 .navBar p{
     color: aliceblue;
-     padding: 0vw 1vw;
+     padding: 0.5vw 1vw;
      position: relative;
+     transition: 0.5s;
+    border-radius: 20px; 
 }
 
 .navBar p:hover{
-    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8);
-    border-radius: 20px;
-    padding: 0vw 1vw;
+     box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8);  
+    border-radius: 20px;  
+    padding: 0.5vw 1vw;
+    transition: 0.5s;
+    background-color: black;
+  
 }

@@ -8,7 +8,9 @@ function CardStories({id,image,title,synopsis,paragraph,url}) {
 
   return (
     <div className='cardStories'>
-        <img onClick={()=>{navigate("/article",{state:{id,image,title,synopsis,paragraph,url}})}} src={image} />
+        <div className='cardStories-imageContainer'>
+          <img onClick={()=>{navigate("/article",{state:{id,image,title,synopsis,paragraph,url}})}} src={image} />
+        </div>
         <h4 onClick={()=>{navigate("/article",{state:{id,image,title,synopsis,paragraph, url}})}}>{title}</h4>
     </div>
  

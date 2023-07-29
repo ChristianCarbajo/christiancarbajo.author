@@ -1,21 +1,24 @@
-
-
- [
+[
     {
-            "id":1,
-            "title": "Evolutionis finis temporum",
-            "synopsis":"En un mundo destruido por la guerra, tres especies dominan la tierra, el Homo sapiens, homo sapiens sequens progresionem, homo magnus.",
-            "paragraph": "Esta novela río está escrita en primera persona, donde cada personaje va a dar su punto de vista. ",
-            "image": "./Assets/portadaEvolutionisFinisTemporum.png"
-        },
-
-        {
-            "id":2,
-            "title": "Amanecer Galáctico",
-            "synopsis":"Nos situamos 3000 años después de la Gran guerra. Toda la galaxia está habitada por diferentes especies y diferentes imperios galácticos. Nuestro protagonista, Derek, se embarcará en diferentes aventuras que lo llevará a descubrir lugares insolitos o hechos que hasta entonces eran desconocidos.",
-            "paragraph": "Amanecer Galáctico es una novela juvenil escrita en tercera persona que nos relata las aventuras de Derek, un joven humano que desea salir de Tenna, su ciudad natal. Esta novela la estoy escribiendo en la actualidad y, debido a mi falta de tiempo, creo que tardaré bastante tiempo en poder terminarla. De todas formas, creo que es un novela muy divertida de escribir, mucho más relajada que Evolutionis finis temporum, con una ambientación y unos personajes más amables de leer.",
-            "image":"./Assets/portadaAmanecerGalactico.jpeg"
-        }
-    
-
+        "id": 1,
+        "title": "Evolutionis finis temporum",
+        "synopsis": "En un mundo destruido por la guerra, tres especies dominan la tierra, el Homo sapiens, homo sapiens sequens progresionem, homo magnus.",
+        "paragraph": "Esta novela río está escrita en primera persona, donde cada personaje va a dar su punto de vista. ",
+        "image": "./Assets/portadaEvolutionisFinisTemporum.png",
+        "buy": [{
+            
+                "amazon": "https://www.amazon.es/",
+                "agapea": "https://www.amazon.es/",
+                "cervantes": "https://www.cervantes.com/"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Amanecer Galáctico",
+        "synopsis": "Nos situamos 3000 años después de la Gran guerra. Toda la galaxia está habitada por diferentes especies y diferentes imperios galácticos. Nuestro protagonista, Derek, se embarcará en diferentes aventuras que lo llevará a descubrir lugares insolitos o hechos que hasta entonces eran desconocidos.",
+        "paragraph": "Amanecer Galáctico es una novela juvenil escrita en tercera persona que nos relata las aventuras de Derek, un joven humano que desea salir de Tenna, su ciudad natal. Esta novela la estoy escribiendo en la actualidad y, debido a mi falta de tiempo, creo que tardaré bastante tiempo en poder terminarla. De todas formas, creo que es un novela muy divertida de escribir, mucho más relajada que Evolutionis finis temporum, con una ambientación y unos personajes más amables de leer.",
+        "image": "./Assets/portadaAmanecerGalactico.jpeg",
+        "buy":[{"explication":"En proceso de creación"}]
+    }
 ]

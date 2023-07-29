@@ -1,8 +1,22 @@
 .cardStories img{
 height: 25vh;
 cursor: pointer;
-border:2px solid white;
-transition: 2s;
+opacity: 70%;
+transition: 0.5s;
+width: 25vh;
+border-radius: 100%;
+
+}
+.cardStories-imageContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    width: 25vh;
+    overflow: hidden;
+    border-radius: 100%;
+    border:2px solid white;
+    transition: 0.5s;
 }
 
 .cardStories h4{
@@ -11,7 +25,6 @@ transition: 2s;
 }
 
 .cardStories{
-
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -20,9 +33,19 @@ transition: 2s;
     margin-bottom: 2vh;
     padding: 10px;
     
+    
 }
 
 .cardStories img:hover{
-transition:2s;
-height: 40vh;
+transition:1s;
+height: 35vh;
+width: 35vh;
+opacity: 100%;
+
 }
+.cardStories-imageContainer:hover{
+    border: 2px solid black;
+    box-shadow: 0 0 20px 10px white;
+    transition: 0.5s;
+}
+

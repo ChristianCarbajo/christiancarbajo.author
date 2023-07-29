@@ -5,7 +5,7 @@
     border:2px solid white;
     position: relative;
     opacity: 80%;
-
+    transition: 0.5s;
 }
 .cardBook h2{
     
@@ -17,9 +17,11 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .cardBook img:hover{
     box-shadow: 0 0 20px 10px white;
     opacity: 100%;
+    transition: 0.5s;
 }

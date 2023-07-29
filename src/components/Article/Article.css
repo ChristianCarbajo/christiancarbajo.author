@@ -28,6 +28,9 @@
     cursor: pointer;
 
 }
+.article-book-shop h3{
+    margin-right: 3vh;
+}
 
 .article-book-pdf {
     height: 10vh;

@@ -16,9 +16,21 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 5vh;
   }
+.titles-lineBar{
+    width: 30%;
+    height: 0.3vh;
+    background-color: aliceblue;
+    
+}
 
   .titles h2{
     font-size: 5vh;
+    margin: 0vh 8vh;
+    width: 19vw;
+    display: flex;
+    justify-content: center;
   }
+

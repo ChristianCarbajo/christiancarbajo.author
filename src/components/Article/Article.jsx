@@ -13,7 +13,7 @@ const Article = () => {
   const paragraphInState = useLocation().state.paragraph
   const imageInState = useLocation().state.image
   const urlInState = useLocation().state.url
-
+  const buyInState = useLocation().state.buy
 
   return (
     <div className='article'>
@@ -23,12 +23,12 @@ const Article = () => {
           <h2>{titleInState}</h2>
           <p>{synopsisInState}</p>
 
-          {!urlInState ?
+          {!urlInState && buyInState ?
             (<div className='article-book-shop'>
-              
-              <a href='/'><img src={AmazonLogo}/></a>
-              <a href='/'><img src={AgapeaLogo}/></a>
-              <a href='/'><img src={CervantesLogo}/></a>
+              {buyInState[0].explication ? <h3>{buyInState[0].explication}</h3> : null}
+              {buyInState[0].amazon && <a href={buyInState[0].amazon}><img src={AmazonLogo} alt="Amazon" /></a>}
+              {buyInState[0].agapea && <a href={buyInState[0].agapea}><img src={AgapeaLogo} alt="Agapea" /></a>}
+              {buyInState[0].cervantes && <a href={buyInState[0].cervantes}><img src={CervantesLogo} alt="Cervantes" /></a>}
             </div>) : <a href={urlInState} target='_blank'><img className='article-book-pdf' src={PdfLogo}/></a>
             } 
 
