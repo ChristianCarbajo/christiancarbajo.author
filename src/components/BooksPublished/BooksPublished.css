@@ -1,0 +1,10 @@
+.booksPublished{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.booksPublished p{
+    margin: 6vh 0vh
+}

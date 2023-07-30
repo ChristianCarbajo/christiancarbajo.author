@@ -2,8 +2,8 @@
     {
         "id":1,
         "title":"Amarah",
-        "synopsis": "Un niño que vive aventuras en el entorno familiar",
-        "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "synopsis": "Amarah, una niña de Yemen, vive con su familia cuidando del ganado, jugando con sus amigos y en definitiva, siendo una niña en un pais asolado por la guerra, el hambre y las enfermedades. En este cuento vemos através de los ojos de una niña de 10 años la cruel realidad de Yemen.",
+        "paragraph":"Esta historia la cree en 2019 para un concurso de Anaya. Elegí Yemen por su casuística. Es un pais que lleva en guerra desde 2014 y continua en el presente. Desgraciadamente Yemen no está en Europa o cerca de ningún pais occidental, ni los rasgos de sus habitantes recuerdan a los occidentales, así que no es una guerra que interese especialemente, ni nos bombardean con imagenes de niños, ni existen cuentas en redes sociales que nos cuenten el día a día de estas personas. Con este cuento quería acercar las diferentes realidades que se viven en el mundo y despertar sentimientos que hagan que, al menos, tengamos presente las diferentes realidades que se viven en el mundo cuasadas por el sistema en el que vivimos.",
         "image":"./Assets/Amarah.jpg",
         "url":"./Assets/Amarah.pdf"
     },
@@ -11,8 +11,8 @@
     {
         "id":2,
         "title":"Esperé",
-        "synopsis": "Una niña de ñlasdjf asdfjsadfjsadf sdfjsdf skfsdf s sdsdfjsdf ",
-        "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "synopsis": "Una carta llena de palabras atascadas que hoy desea enviar nuestro protagonista, una carta para empezar y olvidar",
+        "paragraph":"Este pequeño relato en forma de carta lo escribí para un concurso, creo que en 2018, pero no estoy seguro. Relata el presente, o al menos el que era en 2018, en un pais árabe. Algo no muy diferente de lo que sentían personas en España, no hace tanto. Quise escribir esta historia más como recordatorio que como denuncia. Valoremos lo que tenemos y sigamos avanzando, que no se repita lo que en otros lugares es el día a día. ",
         "image":"./Assets/Espere.jpg",
         "url":"./Assets/Espere.pdf"
     },
@@ -20,8 +20,8 @@
     {
         "id":3,
         "title":"El sueño de un niño",
-        "synopsis": "Sinopsis del tercer título Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "synopsis": "¿Qué quieres ser de mayor? Una pregunta que nuestro protagonista tiene claro. ¿Conseguirá su sueño?",
+        "paragraph":"Esta historia la escribí en un momento en el que me apetecía contar algo cotidiano, algo que bien podría ser nuestra vida, sin florituras. Cualquier familia podría ser la protagonista de esta historia, podría ser la tuya, la de tu vecino o la de algún familiar.",
         "image":"./Assets/plane.jpg",
         "url":"./Assets/El_sueño_de_un_niño.pdf"
     },
@@ -29,8 +29,8 @@
     {
         "id":4,
         "title":"El valle nebuloso",
-        "synopsis": "Sinopsis del cuarto Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "synopsis": "Nos situamos en un pueblo celta donde viven nuestros dos protagonistas Faing y su hija Ayla. Su padre solía llevarla para pastorear a las vacas. La favorita de Ayla era Moibeal. El lugar siempre había sido tranquilo, pero hoy no iba a ser un día cualquiera.",
+        "paragraph":"Esta pequeña historia la escribí en 2018 para un concurso que ni siquiera me acuerdo. Es un relato que encoge el corazón, o al menos es lo que me pasa cada vez que lo leo. Espero que os guste.",
         "image":"./Assets/ElValleNebuloso.jpg",
         "url":"./Assets/El_valle_nebuloso.pdf"
         
@@ -39,8 +39,8 @@
     {
         "id":5,
         "title":"Trabajé mucho",
-        "synopsis":"Sinopsis del cuarto Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "synopsis":"Un historia basada en hechos reales que cuenta como era ser mujer en el franquismo",
+        "paragraph":"Esta historia es una historia basada en hechos reales. Las palabras son de una persona muy cercana a mi. Un día se sentó en la cocina y comenzó a contarme una historia resumida de lo que había sido su ambito laboral en su vida. Al menos, lo que no conocía. Es un relato corto, pero que creo que coge la esencia. Este relato fue escrito para un concurso que exigía un maximo de caracteres. Creo que puedo extenderlo más, pero me gusta dejarlo tal y como se concibió.",
         "image":"./Assets/TrabajeMucho.jpg",
         "url":"./Assets/TRABAJE_MUCHO.pdf"
     },
@@ -48,8 +48,8 @@
     {
         "id":6,
         "title":"Recuerdo subconsciente",
-        "synopsis":"Sinopsis del cuarto Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "synopsis":"Ha ocurrido un asesinato en un hotel, la policía llega para investigarlo y descubrir que ha pasado.",
+        "paragraph":"Con este relato quedé finalista en un concurso de relatos. Es un relato tipo nobela negra, donde el lector, aun siendo un relato muy corto, se sorprenderá del final. Al menos mi intención es jugar con la concepción de lo normal y dejarla al descubierto.",
         "image":"./Assets/RecuerdoSubconsciente.jpg",
         "url":"./Assets/RECUERDO_SUBCONSCIENTE.pdf"
     },
@@ -57,10 +57,18 @@
     {
         "id":7,
         "title":"Carta a Lombaf",
-        "synopsis":"Sinopsis del cuarto Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "synopsis":"Un imperio se a erigido como punto de referencia para el mundo. Dentro de ese gran imperio vive y sirve nuestro protagonista Lombaf, un ayudante de un clérigo que, sin quererlo, descubre algo que cambiará el mundo.",
+        "paragraph":"Este relato fue creado para un concurso literario en 2017. Es un relato ambientado en un mundo fantástico medieval, por el cual Lombaf nos guiará y nos contará un poco el funcionamiento del Imperio. Quiénes son sus enemigos, sus dioses, etc. Me gustó mucho escribir este relato y le tengo especial cariño. Es un relato que hasta el título es un elemento esencial para la historia.",
         "image":"./Assets/CartaALombaf.jpg",
         "url":"./Assets/Carta_a_Lombaf.pdf"
+    },
+    {
+        "id":8,
+        "title":"Felipe el aventurero",
+        "synopsis":"Felipe recrea, imagina y se divierte en su propio mundo de aventuras, heroes y villanos",
+        "paragraph":"Es uno de los relatos más cortos que tengo, pero también, uno de los que más cariño tengo. Quizás por el momento cuando lo escribí, quizás por lo que despierta en mi cuando lo vuelvo a leer.",
+        "image":"./Assets/FelipeElAventurero.jpg",
+        "url":"./Assets/Felipe_el_Aventurero.pdf"
     }
 ]
 

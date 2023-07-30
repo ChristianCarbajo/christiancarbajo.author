@@ -40,7 +40,7 @@ const Main = () => {
       </div>
    
 
-      <div className='storiesContainer'>
+      <div id='stories' className='storiesContainer'>
         {dataStories.map((index) => (
           <CardStories
             key={index.id}

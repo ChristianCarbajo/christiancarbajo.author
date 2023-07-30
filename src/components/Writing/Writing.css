@@ -1,0 +1,14 @@
+.writting{
+margin:5vh 5vw;
+
+}
+.writting p{
+    margin-bottom: 5vh;
+    text-align: justify;
+
+}
+.writting span{
+    font-style: italic;
+    font-weight: bold;
+
+}

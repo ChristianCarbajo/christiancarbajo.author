@@ -1,0 +1,12 @@
+.footer{
+    display: flex;
+    align-items: center;
+    margin-left: 1vw;
+}
+.footer img{
+    height: 2vh;
+    margin-right: 0.5vw;
+}
+.footer p{
+    font-size: small;
+}

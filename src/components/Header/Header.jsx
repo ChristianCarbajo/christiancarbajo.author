@@ -2,6 +2,8 @@ import React from 'react'
 import './Header.css'
 import CCG from "./imgHeader/CCG.jpg"
 import {Link} from "react-router-dom"
+import X from './imgHeader/X.png'
+import Facebook from './imgHeader/Facebook.png'
 
 const Header = () => {
   return (
@@ -10,6 +12,10 @@ const Header = () => {
             <div className='header-name'>
                 <h1>Christian Carbajo</h1>
                 <h3>Escritor/Programador Web/Músico</h3>
+            </div>
+            <div className='header-media'>
+              <Link target='_blank' to="https://twitter.com/CCGAuthor"><img src={X} /></Link>
+              <Link target='_blank' to="https://www.facebook.com/ChristianCarbajoOficial"><img className='header-media-FB' src={Facebook} /></Link>
             </div>
     </div>
   )

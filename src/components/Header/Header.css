@@ -26,3 +26,21 @@
 .header-name{
     margin-left: 3vw;
 }
+.header-media{
+  
+    display: flex;
+    justify-content: end;
+}
+.header-media img{
+    height: 5vh;
+    cursor: pointer;
+    border:2px solid white;
+    border-radius: 100%;
+}
+.header-media-FB{
+    margin-left: 1vw;
+    
+}
+.header-media a{
+    height: 5vh;
+}

@@ -26,9 +26,9 @@ const Article = () => {
           {!urlInState && buyInState ?
             (<div className='article-book-shop'>
               {buyInState[0].explication ? <h3>{buyInState[0].explication}</h3> : null}
-              {buyInState[0].amazon && <a href={buyInState[0].amazon}><img src={AmazonLogo} alt="Amazon" /></a>}
-              {buyInState[0].agapea && <a href={buyInState[0].agapea}><img src={AgapeaLogo} alt="Agapea" /></a>}
-              {buyInState[0].cervantes && <a href={buyInState[0].cervantes}><img src={CervantesLogo} alt="Cervantes" /></a>}
+              {buyInState[0].amazon && <a target='_blank' href={buyInState[0].amazon}><img src={AmazonLogo} alt="Amazon" /></a>}
+              {buyInState[0].agapea && <a target='_blank' href={buyInState[0].agapea}><img src={AgapeaLogo} alt="Agapea" /></a>}
+              {buyInState[0].cervantes && <a target='_blank' href={buyInState[0].cervantes}><img src={CervantesLogo} alt="Cervantes" /></a>}
             </div>) : <a href={urlInState} target='_blank'><img className='article-book-pdf' src={PdfLogo}/></a>
             } 
 

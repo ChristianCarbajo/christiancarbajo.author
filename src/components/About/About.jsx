@@ -9,12 +9,18 @@ const About = () => {
           <div>
           <h2>Sobre mi</h2>
             <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-            anim id est laborum."
+            Christian Carbajo García nació en 1989 en Puente de Órbigo (León), es el mayor de dos hermanos. Creció en el seno de una familia 
+            española con escasos recursos económicos. Comenzó con sus primeros relatos cortos a la edad de 15 años. Gran aficionado de la novela 
+            épica fantástica medieval y de la historia medieval, sobre todo la relacionada con el Reino de León, además de ser aficionado al manga,
+             anime y series de ciencia ficción. 
+             Ha participado en varios concursos de relatos y microrrelatos llegando a ser finalista en varios de ellos. 
+            </p> 
+            <p>Fue músico profesional durante seis años, ha sido dueño de la librería "Okaeri Nasai", ha participado como colaborador en la RPA y 
+              es el cofundador del podcast “Docendo Discimus”. Actualmente es Coformador en Factoría F5, enseñando programación y ayudando a
+              personas vulnerables a entrar en el sector IT.
+              </p>
+              <p>Es autor de la novela “Evolutionis finis temporum” y ya está trabajando en 
+              su segunda novela, "Amanecer galáctico".
             </p>
             </div>
         </div>

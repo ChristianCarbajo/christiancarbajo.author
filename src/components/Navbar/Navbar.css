@@ -27,3 +27,6 @@
     background-color: black;
   
 }
+.navBar-link{
+    cursor: pointer;
+}
