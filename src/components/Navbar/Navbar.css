@@ -36,6 +36,12 @@
 }
 .navbar-button{
   display: none;
+  height: 8vh;
+  padding: 2vh 0vh;
+  padding-left: 3vw;
+  border:none;
+  background: none;
+  width: 100%;
   
 }
 
