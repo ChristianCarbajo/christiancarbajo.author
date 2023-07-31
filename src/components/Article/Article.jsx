@@ -19,7 +19,7 @@ const Article = () => {
     <div className='article'>
       <div className='article-book'>
         <img className='article-book-frontPage' src={imageInState} />
-        <div>
+        <div className='article-titleSynopBuy'>
           <h2>{titleInState}</h2>
           <p>{synopsisInState}</p>
 

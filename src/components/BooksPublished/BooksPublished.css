@@ -8,3 +8,11 @@
 .booksPublished p{
     margin: 6vh 0vh
 }
+@media (max-width:650px){
+    .booksPublished img{
+        height: 40vh;
+    }
+    .booksPublished{
+        margin: 0vw 5vw;
+    }
+}

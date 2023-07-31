@@ -1,6 +1,6 @@
 .cardBook img{
     height: 60vh;
-    width: 20vw;
+
     cursor: pointer;
     border:2px solid white;
     position: relative;
@@ -17,11 +17,17 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
+   
 }
 
 .cardBook img:hover{
     box-shadow: 0 0 20px 10px white;
     opacity: 100%;
     transition: 0.5s;
+}
+
+@media (max-width: 800px){
+    .cardBook{
+    margin-bottom:8vh;
+    }
 }

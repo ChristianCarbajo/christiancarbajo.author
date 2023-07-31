@@ -8,3 +8,20 @@
     margin-right: 5vw;
     border:2px solid white;
 }
+.about p{
+    text-align: justify;
+}
+@media (max-width:990px){
+    .about{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}
+@media (max-width:540px){
+.about img{
+    height: 30vh;
+}
+}
