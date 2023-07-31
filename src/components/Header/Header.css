@@ -79,11 +79,11 @@
 .backgroundImage{
     display: flex;
     flex-direction: column;
-    padding-bottom: 8vh;
+    padding-bottom: 11vh;
    
 }
 .header-name{
     margin-left: 0vw;
-    margin-top: 2vh;
+    margin-top: 4.5vh;
 }
 }
