@@ -9,10 +9,12 @@ const Navbar = () => {
 
     const [isOpen, setIsOpen] = useState(false);
 
+    
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
 
+    
     return (
         <div className='navBar'>
             <button  className='navbar-button'>
