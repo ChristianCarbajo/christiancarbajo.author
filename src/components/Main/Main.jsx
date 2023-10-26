@@ -4,7 +4,8 @@ import dataBook from '../Data/DataBooks.json'
 import dataStories from '../Data/DataStories.json'
 import './Main.css'
 import CardStories from '../Card/CardStories/CardStories'
-import { Element } from 'react-scroll'
+import { Element, Link } from 'react-scroll';
+
 
 
 
@@ -40,8 +41,8 @@ const Main = () => {
         <div className='titles-lineBar'></div>
       </div>
 
-      <Element name="stories">
-        <div className='storiesContainer'>
+      
+        <Element name='stories' className='storiesContainer'>
           {dataStories.map((index) => (
             <CardStories
               key={index.id}
@@ -51,8 +52,8 @@ const Main = () => {
               image={index.image}
               url={index.url}
             />))}
-        </div>
-      </Element>
+        </Element>
+      
     </div>
   )
 }

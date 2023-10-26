@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import { NavLink } from "react-router-dom"
+import { NavLink, useLocation } from "react-router-dom"
 import { Link } from 'react-scroll';
 import { useState } from 'react';
 import HamburgerIcon from './imgNavbar/HamburgerIcon.png'
@@ -13,8 +13,10 @@ const Navbar = () => {
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
+    const location = useLocation();
 
-    
+const homePage = location.pathname === '/';
+
     return (
         <div className='navBar'>
             <button  className='navbar-button'>
@@ -24,13 +26,14 @@ const Navbar = () => {
                 <NavLink to="/about"><p>¿Quién soy?</p></NavLink>
                 <NavLink to="/published"><p>Libros publicados</p></NavLink>
                 <NavLink to="/writing"><p>Escribiendo</p></NavLink>
-                <Link className="navBar-link"
+                
+               {homePage && <Link className="navBar-link"
                     activeClass="active"
                     to="stories"
                     spy={true}
                     smooth={true}
                     offset={-300}
-                    duration={500}><p>Relatos cortos</p></Link>
+                    duration={500}><p>Relatos cortos</p></Link>}
             </nav>
         </div>
     )
