@@ -5,7 +5,7 @@
     padding-left: 5vw;
     padding-top: 5vh;
     display: flex;
-   
+    background-size: cover;
 }
 
 .backgroundImage h1{
